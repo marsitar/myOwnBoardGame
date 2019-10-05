@@ -2,9 +2,6 @@ package com.mareksit.objects;
 
 import com.mareksit.abstractobjects.Animal;
 
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-
 public class Human extends Animal {
     private boolean isSpecial;
 
@@ -15,9 +12,8 @@ public class Human extends Animal {
         this.isSpecial=false;
         this.imagePath=this.imagePath+"human2.png";
     }
-
-    @Override
-    public void action(){
-
-    }
+//    @Override
+//    public void action(){
+//
+//    }
 }
